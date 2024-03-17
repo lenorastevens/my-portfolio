@@ -27,6 +27,7 @@ module.exports = {
         400: '#fb7185',
       },  
       'pink': '#db2777',
+      'gray': '#4b5563',
     },
     plugins: [],
   }
