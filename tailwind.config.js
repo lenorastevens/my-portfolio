@@ -12,6 +12,7 @@ module.exports = {
       'black': '#000',
       'white': '#fff',
       'cyan': {
+        100: '#cffafe',
         400: '#22d3ee',
         500: '#06b6d4',
         600: '#0891b2',
@@ -28,6 +29,19 @@ module.exports = {
       },  
       'pink': '#db2777',
       'gray': '#4b5563',
+      'orange': '#f97316',
+      'blue': {
+        400: '#60a5fa',
+        500: '#3b82f6',
+        600: '#2563eb',
+      },  
+      'yellow': '#eab308',
+      'sky': '#7dd3fc',
+      'fuchsia': {
+        500: '#d946ef',
+        700: '#a21caf',
+      },
+      'gray': '#9ca3af',
     },
     plugins: [],
   }
