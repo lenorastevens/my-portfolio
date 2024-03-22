@@ -5,10 +5,10 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-cyan-950 via-cyan-950 to-cyan-600 '>
+    <div name="home" className='h-screen w-full bg-gradient-to-b from-cyan-950 via-cyan-950 to-cyan-600 pt-20'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Student of Full Stack Development</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold pr-4 text-white'>I'm a Student of Full Stack Development</h2>
                 <p className='text-white py-4 max-w-md'>
                     I am a student at BYU-I studing software development.  I have developed skills in many areas related to software 
                     development, but Full Stack is turning out to be my favorite way to spend my coding time. .NET Razor Pages and MVC core
