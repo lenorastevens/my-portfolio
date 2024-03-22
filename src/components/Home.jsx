@@ -10,9 +10,10 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold pr-4 text-white'>I'm a Student of Full Stack Development</h2>
                 <p className='text-white py-4 max-w-md'>
-                    I am a student at BYU-I studing software development.  I have developed skills in many areas related to software 
-                    development, but Full Stack is turning out to be my favorite way to spend my coding time. .NET Razor Pages and MVC core
-                    have been fun to learn and now I am adding React and Tailwind to the skill set.
+                As a student of software development at Brigham Young University-Idaho, I've explored various realms of coding, 
+                 Full Stack development has become my true passion. From mastering .NET Razor Pages and MVC Core to venturing 
+                 into React and Tailwind, I'm continuously expanding my skills to craft seamless digital experiences. Each line 
+                 of code I write fuels my enthusiasm to push boundaries and redefine what's possible in technology.
                 </p>
                 <div>
                     <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-rose-300 to-pink cursor-pointer'>

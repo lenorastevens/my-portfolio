@@ -1,5 +1,5 @@
 import React from 'react';
-import calculator from '../assets/portfolio/calculator.png';
+import scoots from '../assets/portfolio/scoots.png';
 import nationalParkCampgrounds from '../assets/portfolio/nationalParkCampgrounds.png';
 import tracker from '../assets/portfolio/tracker.png';
 import inventorymanagment from '../assets/portfolio/inventorymanagement.png';
@@ -11,9 +11,9 @@ const Portfolio = () => {
     const portfolios = [
       {
         id: 1,
-        src: calculator,
-        demo: '',
-        code: 'https://github.com/lenorastevens/Calculator-Kotlin'
+        src: scoots,
+        demo: 'https://lenorastevens.github.io/Scoots/index.html',
+        code: 'https://github.com/lenorastevens/Scoots'
       },
       {
         id: 2,
@@ -44,7 +44,7 @@ const Portfolio = () => {
     
 
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-cyan-950 to-cyan-600 w-full md:h-screen text-white pt-20'>
+    <div name="portfolio" className='bg-gradient-to-b from-cyan-950 via-cyan-950 to-cyan-600 w-full md:h-screen text-white pt-20'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-cyan-500'>Portfolio</p>
@@ -55,8 +55,8 @@ const Portfolio = () => {
             <div key={id} className='shadow-md shadow-pink rounded-lg'>
               <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
               <div className='flex items-center justify-center'>
-                <a className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' href={demo} target="_blank" rel="noreferrer">Demo</a>
-                <a className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' href={code} target='_blank' rel="noreferrer">Code</a>
+                <a className='w-1/2 px-6 m-4 duration-200 hover:scale-105' href={demo} target="_blank" rel="noreferrer">Demo</a>
+                <a className='w-1/2 px-6 m-4 duration-200 hover:scale-105' href={code} target='_blank' rel="noreferrer">Code</a>
               </div>
             </div>
           ))}          
