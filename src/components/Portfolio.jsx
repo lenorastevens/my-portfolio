@@ -13,31 +13,43 @@ const Portfolio = () => {
         id: 1,
         src: scoots,
         demo: 'https://lenorastevens.github.io/Scoots/index.html',
-        code: 'https://github.com/lenorastevens/Scoots'
+        code: 'https://github.com/lenorastevens/Scoots',
+        tech: 'VS Code: includes dynamic loading from JSON'
       },
       {
         id: 2,
         src: nationalParkCampgrounds,
         demo: 'https://lenorastevens.github.io/National-Parks-Campground-Guide/',
-        code: 'https://github.com/lenorastevens/National-Parks-Campground-Guide'
+        code: 'https://github.com/lenorastevens/National-Parks-Campground-Guide',
+        tech: 'VS Code: includes API fetch, search, dynamic loading'
       },
       {
         id: 3,
         src: tracker,
         demo: 'https://ls-tracker-app.netlify.app/',
-        code: 'https://github.com/lenorastevens/tracker'
+        code: 'https://github.com/lenorastevens/tracker',
+        tech: 'VS Code: code is mostly TypeScript'
       },
       {
         id: 4,
-        src: SWAU
+        src: SWAU,
+        demo: '',
+        code: '',
+        tech: 'VS: .Net Core MVC and SQL'
       },
       {
         id: 5,
-        src: inventorymanagment
+        src: inventorymanagment,
+        demo: '',
+        code: 'https://github.com/lenorastevens/InventoryManagementSystem',
+        tech: 'VS: Python and SQLite'
       },
       {
         id: 6,
-        src: scriptureJournal
+        src: scriptureJournal,
+        demo: '',
+        code: 'https://github.com/lenorastevens/MyScriptureJournal',
+        tech: 'VS: ASP.Net Razor Pages and SQL'
       }
 
     ]
@@ -51,12 +63,15 @@ const Portfolio = () => {
           <p className='py-6'>Check out some of my work right here</p>
         </div>        
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-        {portfolios.map(({id, src, demo, code}) => (
+        {portfolios.map(({id, src, demo, code, tech}) => (
             <div key={id} className='shadow-md shadow-pink rounded-lg'>
               <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
               <div className='flex items-center justify-center'>
                 <a className='w-1/2 px-6 m-4 duration-200 hover:scale-105' href={demo} target="_blank" rel="noreferrer">Demo</a>
                 <a className='w-1/2 px-6 m-4 duration-200 hover:scale-105' href={code} target='_blank' rel="noreferrer">Code</a>
+              </div>
+              <div>
+                <p className='px-1 m-2 justify-center'>{tech}</p>
               </div>
             </div>
           ))}          
