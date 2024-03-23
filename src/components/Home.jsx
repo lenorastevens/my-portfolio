@@ -11,7 +11,7 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold pr-4 text-white'>I'm a Student of Full Stack Development</h2>
                 <p className='text-white py-4 max-w-md'>
                 As a student of software development at Brigham Young University-Idaho, I've explored various realms of coding, 
-                 Full Stack development has become my true passion. From mastering .NET Razor Pages and MVC Core to venturing 
+                 Full Stack development has become my true passion. From experiencing .NET Razor Pages and MVC Core to venturing 
                  into React and Tailwind, I'm continuously expanding my skills to craft seamless digital experiences. Each line 
                  of code I write fuels my enthusiasm to push boundaries and redefine what's possible in technology.
                 </p>
