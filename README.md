@@ -8,7 +8,7 @@ I chose to write a portfolio app for two reasons: I am entering my last year as 
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-[React Portfolio Demo Video](http://youtube.link.goes.here)
+[React Portfolio Demo Video](https://youtu.be/EPChJukjtbc)
 
 # Web Pages
 
