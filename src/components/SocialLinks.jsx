@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: "https://linkedin.com",
+            href: "https://www.linkedin.com/in/lenorastevens/",
             style: 'rounded-tr-md'
         },
         {
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                 Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: "mailto:ste22077@byui.edu",
+            href: "mailto:lenoraRstevens@gmail.com",
         },
         {
             id:4,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: process.env.PUBLIC_URL + '/resume.pdf',
+            href: '/resume.pdf',
             style: 'rounded-br-md',
             download: true,
         },
