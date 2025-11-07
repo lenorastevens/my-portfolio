@@ -8,25 +8,19 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-cyan-500'>About</p>
             </div>
             <p className='text-xl mt-4'>
-            As a dedicated mom of four boys, I've mastered the art of multitasking and problem-solving in my roles as 
-            both a full-time parent and a burgeoning full-stack developer. While raising my family, I've discovered a 
-            passion for photography and exploring the great outdoors, often venturing into National Parks for breathtaking 
-            scenery and rejuvenating hikes. Despite the demands of motherhood, I've remained committed to personal growth 
-            and community involvement, volunteering in various capacities from Lego robotics to mentoring in math pentathlon 
-            clubs. Now, armed with a solid foundation in web and computer programming from Brigham Young University-Idaho, 
-            I'm ready to embark on a new chapter, combining my technical skills with my innate ability to connect with others. 
+            I’m a passionate Full Stack Developer with a love for solving complex problems and bringing ideas to life through clean, functional code. I thrive on creativity, collaboration, and continuous growth—whether I’m building a dynamic web application or exploring new tools and frameworks. My interests in photography and the outdoors inspire my approach to development: curious, detail-oriented, and always looking for fresh perspectives.
             </p>
 
             <br/>
 
             <p className='text-xl'>
-            With a Web and Computer Programming Certificate under my belt and a Bachelor's degree in Software Development on 
-            the horizon, I bring a diverse skill set to the table. From Python and C# to HTML/CSS and JavaScript, I've honed 
-            my abilities to convert requirements into efficient code and tackle complex challenges head-on. My journey as a 
-            stay-at-home mom has instilled in me invaluable traits such as perseverance, empathy, and effective communication 
-            – qualities that I seamlessly integrate into my work as a developer. With a knack for leadership, a keen eye for 
-            detail, and a passion for continuous learning, I'm excited to contribute my unique perspective to innovative 
-            projects and collaborative teams in the ever-evolving world of technology.
+            With a foundation in Web and Computer Programming and a Bachelor’s degree in Software Development from Brigham Young University–Idaho, I bring a diverse technical background that includes Python, C#, HTML/CSS, JavaScript, TypeScript, React, Next.js, and .NET. I take pride in transforming requirements into efficient, user-friendly solutions while maintaining a focus on clarity, accessibility, and performance.
+            </p>
+
+            <br/>
+
+            <p className='text-xl'>
+            Driven by curiosity and a commitment to continuous improvement, I’m excited to contribute to meaningful projects that challenge me to grow and make a lasting impact in the world of technology.  
             </p>
         </div>
     </div>

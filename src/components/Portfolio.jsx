@@ -4,7 +4,7 @@ import nationalParkCampgrounds from '../assets/portfolio/nationalParkCampgrounds
 import tracker from '../assets/portfolio/tracker.png';
 import inventorymanagment from '../assets/portfolio/inventorymanagement.png';
 import SWAU from '../assets/portfolio/SWAU.png';
-import scriptureJournal from '../assets/portfolio/scriptureJournal.png';
+import familyRecipeVault from '../assets/portfolio/familyRecipeVault.png';
 
 const Portfolio = () => {
 
@@ -46,10 +46,10 @@ const Portfolio = () => {
       },
       {
         id: 6,
-        src: scriptureJournal,
-        demo: 'https://lenorastevens.github.io/MyScriptureJournal/',
-        code: 'https://github.com/lenorastevens/MyScriptureJournal',
-        tech: 'VS: ASP.Net Razor Pages and SQL'
+        src: familyRecipeVault,
+        demo: 'https://family-recipe-vault.vercel.app/',
+        code: 'https://github.com/natelandrum/family-recipe-vault',
+        tech: 'VS: Next.js, Tailwind, PostgreSQL'
       }
     ]
     

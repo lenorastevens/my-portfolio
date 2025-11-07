@@ -8,12 +8,9 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-gradient-to-b from-cyan-950 via-cyan-950 to-cyan-600 pt-20'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl sm:text-7xl font-bold pr-4 text-white'>I'm a Student of Full Stack Development</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold pr-4 text-white'>I'm a Full Stack Developer</h2>
                 <p className='text-white py-4 max-w-md'>
-                As a student of software development at Brigham Young University-Idaho, I've explored various realms of coding, 
-                 Full Stack development has become my true passion. From experiencing .NET Razor Pages and MVC Core to venturing 
-                 into React and Tailwind, I'm continuously expanding my skills to craft seamless digital experiences. Each line 
-                 of code I write fuels my enthusiasm to push boundaries and redefine what's possible in technology.
+                As a Full Stack Developer, I enjoy bringing ideas to life through modern web technologies. My experience includes working with .NET Razor Pages, MVC Core, React, Next.js, Tailwind, TypeScript, MySQL, and PostgreSQL to build dynamic, user-focused applications. I’m driven by a passion for learning, problem-solving, and crafting intuitive digital solutions that make an impact.
                 </p>
                 <div>
                     <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-rose-300 to-pink cursor-pointer'>
