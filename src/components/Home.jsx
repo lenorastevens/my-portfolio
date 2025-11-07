@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-cyan-950 via-cyan-950 to-cyan-600 pt-20'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col justify-center h-full'>
+            <div className='flex flex-col justify-center h-full md:w-1/2 md:pr-8'>
                 <h2 className='text-4xl sm:text-7xl font-bold pr-4 text-white'>I'm a Full Stack Developer</h2>
                 <p className='text-white py-4 max-w-md'>
                 As a Full Stack Developer, I enjoy bringing ideas to life through modern web technologies. My experience includes working with .NET Razor Pages, MVC Core, React, Next.js, Tailwind, TypeScript, MySQL, and PostgreSQL to build dynamic, user-focused applications. I’m driven by a passion for learning, problem-solving, and crafting intuitive digital solutions that make an impact.
@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img src={HeroImage} alt='my profile' className='rounded-2xl mx-auto w-2/3 md:w-full'/>
+                <img src={HeroImage} alt='my profile' className='rounded-2xl w-2/3 md:w-4/5 lg:w-3/4 object-cover'/>
             </div>
         </div>
     </div>
