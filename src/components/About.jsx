@@ -14,7 +14,7 @@ const About = () => {
             <br/>
 
             <p className='text-xl'>
-            With a foundation in Web and Computer Programming and a Bachelor’s degree in Software Development from Brigham Young University–Idaho, I bring a diverse technical background that includes Python, C#, HTML/CSS, JavaScript, TypeScript, React, Next.js, and .NET. I take pride in transforming requirements into efficient, user-friendly solutions while maintaining a focus on clarity, accessibility, and performance.
+            With a foundation in Web and Computer Programming and a Bachelor’s degree in Software Development from Brigham Young University–Idaho, I bring a diverse technical background that includes Python, C#, JavaScript, TypeScript, React, Next.js, and .NET. I take pride in transforming requirements into efficient, user-friendly solutions while maintaining a focus on clarity, accessibility, and performance.
             </p>
 
             <br/>

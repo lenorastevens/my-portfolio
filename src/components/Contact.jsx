@@ -9,7 +9,7 @@ const Contact = () => {
                 <p className='py-6'>Submit the form below to get in touch with me</p>
             </div>
             <div className='flex justify-center items-center'>
-                <form action='https://getform.io/f/nbdoypxa' method='POST' className='flex flex-col w-full md:w-1/2'>
+                <form action='https://getform.io/f/nbdoypxa' method='POST' className='flex flex-col w-full md:w-2/3'>
                     <input type='text' name='name' placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-cyan-950 focus:outline-none'></input>
                     <input type='text' name='email' placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-cyan-950 focus:outline-none'></input>
                     <textarea name='message' rows="10" placeholder='Enter your message' className='p-2 bg-transparent border-2 rounded-md text-cyan-950 focus:outline-none'></textarea>

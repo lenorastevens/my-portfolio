@@ -48,21 +48,40 @@ const SocialLinks = () => {
     ]
 
   return (
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
-        <ul>
-            {links.map(({ id, child, href, style, download }) => ( 
-                <li key={id}
-                className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-rose-100 ${style ? style: ''}`}>
-                    <a href={href}
-                        className='flex justify-between items-center w-full text-pink' 
-                        download={download} 
-                        target='_blank' 
-                        rel='noreferrer'>                            
-                            {child}                        
+    <div>
+        <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+            <ul>
+                {links.map(({ id, child, href, style, download }) => ( 
+                    <li key={id}
+                    className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-rose-100 ${style ? style: ''}`}>
+                        <a href={href}
+                            className='flex justify-between items-center w-full text-pink' 
+                            download={download} 
+                            target='_blank' 
+                            rel='noreferrer'>                            
+                                {child}                        
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </div>
+        <div className="lg:hidden fixed top-[70px] left-0 w-full bg-rose-100/80 flex justify-center py-2 z-50 shadow-md">
+            <ul className="flex space-x-6">
+                {links.map(({ id, child, href, download }) => (
+                <li key={id}>
+                    <a
+                    href={href}
+                    className="text-pink hover:scale-110 duration-200"
+                    download={download}
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                    {child}
                     </a>
                 </li>
-            ))}
-        </ul>
+                ))}
+            </ul>
+        </div>
     </div>
   );
 };
